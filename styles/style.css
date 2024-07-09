@@ -25,6 +25,14 @@ a{
     border-radius: 8px;
 }
 
+.btn-secondary{
+    background-color: #0D1321;
+    padding:21px 24px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
 .black-1{
     color: #0D1321;;
 }
@@ -38,4 +46,40 @@ a{
     font-size: 28px;
     font-weight:bolder;
     color:#0D1321;
+}
+
+/* banner style */
+.banner{
+    height:650px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 36px;
+}
+.banner >.contain-box{
+    width:1000px;
+    height: 580px;
+    margin: 30px auto;
+    padding: 25px 0;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.btn-secondary a{
+    color: #fff;
+}
+.banner-contain > .btn-area{
+    text-align: center;
+}
+.banner-contain >.banner-title{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-contain >.developer-description{
+    margin-bottom: 30px;
 }
