@@ -83,3 +83,42 @@ a{
 .banner-contain >.developer-description{
     margin-bottom: 30px;
 }
+
+/* developer style  */
+.developer-contain{
+    width:1140px;
+    margin: 70px auto;
+    padding:80px 95px;
+    background-color: #0d132113;
+}
+.dvp-title{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+.devep-dec{
+    text-align: center;
+    margin-top: 24px;
+}
+.box-dev-sec{
+    padding: 58px 48px;
+    background-color: #fff;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-area{
+    width:470px;
+    color: #0d1321bd;
+}
+.text-area>.text-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-dec{
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+.img-area{
+    width:275px;
+}
