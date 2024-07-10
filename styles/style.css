@@ -257,3 +257,23 @@ input[type="submit"]{
     color: #0D1321;
     cursor: pointer;
 }
+
+/* footer style */
+#footer{
+    background-color: #0d132115;
+}
+.footer-contain{
+    width:1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 38px 0;
+}
+.contain-footer{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.footer-logo a{
+    margin-right: 20px;
+}
